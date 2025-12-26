@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hi, This is Gule Zehra | Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  /* Floating Background Shapes */
+.floating {
+  position: absolute;
+  font-size: 2rem;
+  opacity: 0.4;
+  animation: floatAnim calc(8s + var(--i)*1s) infinite ease-in-out;
+}
+@keyframes floatAnim {
+  0% { transform: translateY(0) rotate(0deg); opacity: 0.4; }
+  50% { transform: translateY(-50px) rotate(180deg); opacity: 0.7; }
+  100% { transform: translateY(0) rotate(360deg); opacity: 0.4; }
+}
+
+/* Ensure floating elements are behind content */
+body { position: relative; overflow-x: hidden; }
+.floating { z-index: 0; pointer-events: none; }
+section { position: relative; z-index: 1; }
+
+  /* Hero */
+  .hero {
+    position: relative;
+    background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+    color: white; padding: 100px 20px; text-align: center; overflow: hidden;
+  }
+  .hero h1 { font-family: 'Pacifico', cursive; font-size: 3rem; margin-bottom: 10px; }
+  .hero p { font-size: 1.3rem; margin-bottom: 20px; }
+  .hero .btn { padding: 10px 25px; background: #ff7eb9; border-radius: 30px; color: white; font-weight: 500; transition: 0.3s; }
+  .hero .btn:hover { background: #ff5aa5; }
+
+  /* About */
+  .about { background: #fff0f6; padding: 60px 20px; }
+  .about img { width: 150px; border-radius: 50%; margin-bottom: 20px; border: 5px solid #ffb3d9; }
+
+  /* Footer */
+  footer { padding: 20px; background: #ffe6f2; text-align: center; }
+</style>
+</head>
+<body>
+
+<!-- Floating Background Shapes -->
+<div class="floating" style="--i:0; left:10%; top:5%; content:'💻';"></div>
+<div class="floating" style="--i:1; left:80%; top:20%; content:'🧁';"></div>
+<div class="floating" style="--i:2; left:30%; top:70%; content:'🐱';"></div>
+<div class="floating" style="--i:3; left:50%; top:40%; content:'⭐';"></div>
+<div class="floating" style="--i:4; left:70%; top:80%; content:'💻';"></div>
+<div class="floating" style="--i:5; left:20%; top:30%; content:'🧁';"></div>
+
+
+<!-- Hero Section -->
+<section class="hero">
+  <h1>Gule Zehra</h1>
+  <p>Creative Designer & Social Media Enthusiast</p>
+  <a href="#projects" class="btn">See My Work</a>
+</section>
+
+<!-- About Me -->
+<section class="about">
+  <img src="https://via.placeholder.com/150" alt="Your Avatar">
+  <h2>About Me</h2>
+  <p>Hello!I am a Programmer,Developer and a Baker!</p>
+</section>
+
+<!-- Contact -->
+<section class="contact">
+  <h2>Contact Me</h2>
+  <form>
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" rows="4" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>&copy; 2025 Gule Zehra. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
