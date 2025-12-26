@@ -160,7 +160,7 @@
 <section class="about">
   <img src="https://via.placeholder.com/150" alt="Your Avatar">
   <h2>About Me</h2>
-  <p>Hello! I'm a Python Programmer and a Developer who loves baking, cats, and watching anime & cartoons. I enjoy making colorful, fun, and interactive projects!</p>
+  <p>Hello! I'm a Python Programmer and a Dell Boomi Developer. I love baking, cats, and watching anime & cartoons!</p>
 </section>
 
 <section class="likes">
