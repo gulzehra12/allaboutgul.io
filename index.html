@@ -159,7 +159,7 @@
 <!-- About Section -->
 <section class="about">
   <h2>About Me</h2>
-  <p>Hello! I'm a Python Programmer and a Dell Boomi Developer. I love baking, cats, and watching anime & cartoons!</p>
+  <p>Hello! I'm a Programmer and a Integration Developer. I love baking, cats, and watching anime & cartoons!</p>
 </section>
 
 <section class="likes">
