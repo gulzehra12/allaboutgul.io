@@ -213,28 +213,32 @@
   </div>
 </section>
 
-<!-- Things I Love Section -->
 <section class="likes">
   <h2>Things I Love 💖</h2>
   <div class="likes-grid">
-    <div class="like-card" id="programming">💻 Programming & Development
-      <span class="code-icon">{};</span>
-      <span class="code-icon"><>;</span>
+    <div class="like-card" id="programming">
+      💻 Programming & Development
+      <span class="code-icon">&#123;&#125;;</span>
+      <span class="code-icon">&lt;&gt;;</span>
     </div>
-    <div class="like-card" id="baking">🧁 Baking
+    <div class="like-card" id="baking">
+      🧁 Baking
       <span class="sprinkle">✨</span>
       <span class="sprinkle">🍬</span>
     </div>
-    <div class="like-card" id="cats">🐱 Cats
+    <div class="like-card" id="cats">
+      🐱 Cats
       <span class="paw">🐾</span>
       <span class="paw">🐾</span>
     </div>
-    <div class="like-card" id="anime">🎨 Anime & Cartoons
+    <div class="like-card" id="anime">
+      🎨 Anime & Cartoons
       <span class="star">⭐</span>
       <span class="star">✨</span>
     </div>
   </div>
 </section>
+
 
 <!-- Social Links -->
 <section>
