@@ -203,7 +203,7 @@
 
 <!-- Footer -->
 <footer>
-  <p>&copy; 2025 Gule Zehra. All Rights Reserved.</p>
+  <p>&copy; 2025 Gul Zehra. All Rights Reserved.</p>
 </footer>
 
 </body>
