@@ -86,19 +86,7 @@
   /* About Section */
   .about { background: #fff0f6; padding: 60px 20px; text-align: center; }
   .about img { width: 150px; border-radius: 50%; margin-bottom: 20px; border: 5px solid #ffb3d9; }
-
-  /* Projects Section */
-  .projects-section { background: #f0f7ff; padding: 60px 20px; text-align: center; }
-  .projects { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 30px; }
-  .project-card {
-    background: linear-gradient(135deg, #ffecd2, #fcb69f);
-    border-radius: 20px; padding: 20px; width: 250px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1); transition: transform 0.4s, box-shadow 0.4s;
   }
-  .project-card:hover { transform: translateY(-10px) rotate(-2deg); box-shadow: 0 15px 25px rgba(0,0,0,0.2); }
-  .project-card img { width: 100%; border-radius: 15px; margin-bottom: 15px; }
-  .project-card h3 { font-weight: 500; margin-bottom: 10px; }
-  .project-card p { font-size: 0.9rem; color: #555; }
 
   /* Things I Love Section */
   .likes { background: #fff0f6; padding: 60px 20px; text-align: center; }
@@ -147,15 +135,6 @@
   #anime .star:nth-child(2) { left: 15px; top: 5px; animation-delay: 0.2s; }
   #anime .star:nth-child(3) { right: 15px; top: 10px; animation-delay: 0.6s; }
 
-  /* Social Links */
-  .socials { margin-top: 20px; display: flex; justify-content: center; gap: 15px; }
-  .socials a {
-    display: flex; align-items: center; justify-content: center; width: 50px; height: 50px;
-    border-radius: 50%; background: #ffb3d9; color: white; font-size: 1.5rem;
-    transition: transform 0.3s, background 0.3s;
-  }
-  .socials a:hover { transform: scale(1.3) rotate(-10deg); background: #ff7eb9; }
-
   /* Contact */
   .contact { background: #f0f7ff; padding: 60px 20px; }
   .contact form { max-width: 400px; margin: auto; display: flex; flex-direction: column; gap: 15px; }
@@ -177,40 +156,11 @@
 <div class="floating" style="--i:4; left:70%; top:80%;">💻</div>
 <div class="floating" style="--i:5; left:20%; top:30%;">🧁</div>
 
-<!-- Hero Section -->
-<section class="hero">
-  <h1>Gule Zehra</h1>
-  <p>Creative Programmer, Developer & Baker Who Loves Cats and Anime!</p>
-  <a href="#projects" class="btn">See My Work</a>
-</section>
-
 <!-- About Section -->
 <section class="about">
   <img src="https://via.placeholder.com/150" alt="Your Avatar">
   <h2>About Me</h2>
-  <p>Hello! I'm a creative programmer and developer who loves baking, cats, and watching anime & cartoons. I enjoy making colorful, fun, and interactive projects!</p>
-</section>
-
-<!-- Projects Section -->
-<section id="projects" class="projects-section">
-  <h2>My Projects</h2>
-  <div class="projects">
-    <div class="project-card">
-      <img src="https://via.placeholder.com/250x150" alt="Project 1">
-      <h3>Project 1</h3>
-      <p>Short description of this cute project.</p>
-    </div>
-    <div class="project-card">
-      <img src="https://via.placeholder.com/250x150" alt="Project 2">
-      <h3>Project 2</h3>
-      <p>Short description of another project.</p>
-    </div>
-    <div class="project-card">
-      <img src="https://via.placeholder.com/250x150" alt="Project 3">
-      <h3>Project 3</h3>
-      <p>A fun and colorful project showcase.</p>
-    </div>
-  </div>
+  <p>Hello! I'm a Python Programmer and a Developer who loves baking, cats, and watching anime & cartoons. I enjoy making colorful, fun, and interactive projects!</p>
 </section>
 
 <section class="likes">
@@ -239,17 +189,6 @@
   </div>
 </section>
 
-
-<!-- Social Links -->
-<section>
-  <h2>Connect with Me</h2>
-  <div class="socials">
-    <a href="mailto:your@email.com">📧</a>
-    <a href="tel:+1234567890">📞</a>
-    <a href="https://github.com/yourusername" target="_blank">🐱</a>
-    <a href="https://linkedin.com/in/yourusername" target="_blank">🔗</a>
-  </div>
-</section>
 
 <!-- Contact Section -->
 <section class="contact">
