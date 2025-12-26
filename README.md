@@ -3,13 +3,57 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Gule Zehra | Portfolio</title>
+<title>Gul Zehra | Portfolio</title>
 <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 <style>
   /* Global Styles */
   * { margin:0; padding:0; box-sizing:border-box; }
   body { font-family: 'Roboto', sans-serif; background: #fef6fb; color: #333; overflow-x: hidden; position: relative; }
   a { text-decoration: none; color: inherit; }
+
+/* Things I Love Section */
+.likes { 
+  background: linear-gradient(135deg, #ffe6f2, #fff0f6); /* stronger pastel background */
+  padding: 80px 20px; 
+  text-align: center; 
+  position: relative; 
+  z-index: 1; 
+}
+.likes h2 { 
+  margin-bottom: 40px; 
+  font-size: 2.5rem; 
+  color: #ff5aa5; 
+  font-family: 'Pacifico', cursive; 
+}
+
+/* Make cards bigger and visible */
+.like-card {
+  position: relative;
+  background: linear-gradient(135deg, #ffd1dc, #ffb3d9);
+  border-radius: 25px;
+  padding: 30px 20px;
+  width: 220px;
+  height: 140px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  box-shadow: 0 15px 25px rgba(0,0,0,0.15);
+  transition: transform 0.4s, box-shadow 0.4s, background 0.4s;
+  cursor: pointer;
+  overflow: hidden;
+}
+.like-card:hover { 
+  transform: scale(1.1) rotate(-3deg); 
+  box-shadow: 0 20px 30px rgba(0,0,0,0.25); 
+  background: linear-gradient(135deg, #ffb3d9, #ffd1dc); 
+}
+
+/* Grid layout */
+.likes-grid { 
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center; 
+  gap: 30px; 
+}
 
   /* Floating Background Shapes */
   .floating {
